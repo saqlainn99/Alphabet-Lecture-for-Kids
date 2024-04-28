@@ -1,0 +1,44 @@
+*{
+    margin: 10;
+    padding: 0;
+    background-color: rgb(30, 153, 71);
+}
+.content {
+      display: none;
+}
+    .active {
+      display: block;
+}
+button {
+    font-weight: bold;
+    width: 75px;
+    height: 35px;
+    margin: auto;
+    background-color: aquamarine;
+    overflow: auto;
+    border-radius: 8px;
+}
+
+.content img {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .content img {
+    width: 300px;
+    height: 225px;
+    object-fit: contain;
+    background-color: white;
+}
+h1{
+color: wheat;
+font-size: 300%;
+}
+h2 {
+    color: wheat;
+    font-size: 250%;
+}
+button:hover {
+    background-color: gray;
+    color: white;
+  }
